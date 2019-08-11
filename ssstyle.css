@@ -1,0 +1,80 @@
+*{
+  margin:0;
+  padding: 0;
+ }
+ body{
+    background: url("https://images.pexels.com/photos/433604/pexels-photo-433604.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260") no-repeat top center;
+	background-size: cover;
+     
+}
+h1{
+    text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	padding: 15px;
+}
+.registration{
+    margin: auto;
+	width: 50%;
+	text-align: center;
+	color: white;
+	background: rgba(0,0,0,0.5);
+	border:2px solid white;
+	padding: 15px;
+}
+h2{
+    padding: 5px;
+	}
+#name{
+    width: 40%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1 px solid white;
+	outline: 0;
+	font-family: serif;
+	font-size: 18px;
+	background: none;
+	color: white;
+}
+#number{
+    width: 32%;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1 px solid white;
+	outline: 0;
+	font-family: serif;
+	font-size: 18px;
+	background: none;
+	color: white;
+	}
+#num{
+  
+	padding: 7px 0px;
+	border-radius: 5px;
+	border: 1 px solid white;
+	outline: 0;
+	background: none;
+	color: white;
+
+}
+#check{
+    font-family: serif;
+	font-size:18px;
+}
+#sub{
+    width: 150px;
+	padding: 5px;
+	font-family: serif;
+	font-size: 18px;
+	border: 1px solid white;
+	outline: 0;
+	border-radius: 5px;
+	background: none;
+	color:  white;
+}
+#sub:hover{
+    background: #123456;
+}
+::placeholder{
+    color: white;
+}
